@@ -1,0 +1,40 @@
+h1{
+	font-size: 60;
+	color: blue;
+	font-family: arial black;
+	text-align: center;
+}
+h2{
+	font-size: 50;
+	font-family: arial;
+}
+h3{
+	font-size: 40;
+	font-family: arial;
+}
+a:link {
+	font-family: arial;
+	color: blue;
+	font-size: 14;
+}
+a:visited {
+	font-family: arial;
+	color: red;
+	font-size: 14;
+}
+p {
+	font-size: 14;
+	font-family: arial;
+}
+legend{
+	font-family: arial;
+}
+li{
+	list-style-type: square;
+	color: blue;
+}
+footer{
+	background-color: grey;
+	font-size: 14;
+	font-family: arial;
+}

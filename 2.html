@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<title>Mon super site-Inscription</title>
+	</head>
+	<body>
+		<h1 id="accueil">Mon site g&eacute;nial!!</h1>
+		<h2 id="accueil">Accueil</h2>
+		<p>
+			Si vous voulez m'envoyer un email, <a title="M'envoyer un e-mail" href="mailto:pla@microp.fr">cliquez ici</a> !!<br>
+			Moi, je suis juste là pour vous faire plaisir !!<br/>
+			Par contre, merci de remplir ce petit formulaire avant. C'est gratuit, ça prend 5 minutes et ça m'aide...<br/><br/>
+			<a href="#sommaire" title="Sommaire">Sommaire</a>
+			</p>
+				<form action="2.html" method="post">
+				<fieldset>
+				<legend>Veuillez remplir ce formulaire svp !</legend>
+					<p>
+						Prénom :*<br/>
+						<input type="text" id="prenom" name="prenom" placeholder="Julien" required />
+					</p>
+					<p>
+						Nom :* <br/>
+						<input type="text" id="nom" name="nom" placeholder="MAILLON" required />
+					</p>
+					<p>
+						Email : *<br/>
+						<input type="email" id="mail" name="mail" placeholder="julien.maillon@exemple.com" required />
+					</p>
+					<p>
+						Confirmez votre email :* <br/>
+						<input type="email" id="mail" name="mail" placeholder="julien.maillon@exemple.com" required />
+					</p>
+					<p>
+						Mot de passe : *<br/>
+						<input type="password" id="mdp" name="mdp" minlenght="8" required /><br/><br/>
+						Le mot de masse doit contenir au minimum 8 caractères, dont au moins une majuscule, une minuscule, un chiffre et un caractère spécial;
+					</p>
+					<p>
+						Confirmez votre mot de passe :* <br/>
+						<input type="password" id="mdp2" name="mdp2" minlenght="8" required />
+					</p>
+					<input type="submit" value="Envoyer le formulaire"/>
+					<p>
+						Tous les champs marqués d'un * sont obligatoires.
+					</p>
+				</fieldset>
+				</form>
+				<footer>
+				<h2 id="sommaire">Sommaire</h2>
+				<p><ul><!--ul=balise pour listes/li=boutons-->
+					<li><a href="#accueil">Remonter</a></li>
+					<li><a href="1.html">Page d'accueil</a></li>
+					<li><a href="3.html">Choix personnels</a></li>
+					<li><a href="4.html">Infos à donner</a></li>	
+					<li><a href="5.html">Connexion</a></li>
+				</ul></p>
+				</footer>
+		</body>
+	</html>
